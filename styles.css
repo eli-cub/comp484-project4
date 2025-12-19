@@ -1,0 +1,16 @@
+html, body { height: 100%; margin: 0; font-family: Arial, sans-serif; }
+.wrap { display: grid; grid-template-columns: 360px 1fr; height: 100%; }
+.panel { padding: 16px; background: #f2e7c9; border-right: 1px solid #ccc; }
+#map { height: 100%; }
+
+h1 { margin: 0 0 8px; }
+.subtitle { margin: 0 0 12px; }
+.prompt { font-weight: 700; margin: 10px 0 8px; padding: 10px; background: #2b6cb0; color: #fff; font-size: 18px; }
+.score { margin: 0 0 14px; font-weight: 700; }
+.controls { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+button { padding: 8px 12px; cursor: pointer; }
+.calib { font-size: 14px; user-select: none; }
+.log { font-size: 14px; line-height: 1.4; }
+.final { margin-top: 14px; font-size: 34px; font-weight: 800; }
+.good { color: #0b6; }
+.bad { color: #c00; }

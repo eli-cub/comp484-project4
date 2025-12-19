@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CSUN Map Quiz (Leaflet)</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <h1>Map Quiz</h1>
+      <p class="subtitle">Double click on the map for each question.</p>
+
+      <div id="prompt" class="prompt">Loading...</div>
+      <div id="score" class="score">Score: 0 Correct, 0 Incorrect</div>
+
+      <div class="controls">
+        <button id="startBtn">Start / Restart</button>
+        <label class="calib">
+          <input type="checkbox" id="calibMode" />
+          Calibration mode (log coords)
+        </label>
+      </div>
+
+      <div id="log" class="log"></div>
+      <div id="final" class="final"></div>
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
